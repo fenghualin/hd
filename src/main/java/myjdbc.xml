@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<dataSource>
+	    <driver>com.mysql.jdbc.Driver</driver>
+	    <url>jdbc:mysql://rdsyrjibryrjibr.mysql.rds.aliyuncs.com:3306/huandu?zeroDateTimeBehavior=convertToNull&amp;autoReconnect=true&amp;characterEncoding=utf-8</url>
+	    <username>huandu</username>
+	    <password>huandu201411</password>
+	</dataSource>
+	<properties>
+		<!-- 设置为true则会显示很多调试信息 -->
+		<property name="developer.showstats" value="false" />
+		<property name="connection.max" value="10" />
+		<property name="connection.min" value="5" />
+	</properties>
+</configuration>

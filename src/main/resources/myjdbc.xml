@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<dataSource>
+	    <driver>com.mysql.jdbc.Driver</driver>
+	   <!--  <url>jdbc:mysql://192.168.1.188/output_test?zeroDateTimeBehavior=convertToNull&amp;autoReconnect=true&amp;characterEncoding=utf-8</url> -->
+	   <url>jdbc:mysql://127.0.0.1:3306/huandu?zeroDateTimeBehavior=convertToNull&amp;autoReconnect=true&amp;characterEncoding=utf-8</url>
+	    <username>root</username>
+	    <password></password>
+	</dataSource>
+	<properties>
+		<!-- 设置为true则会显示很多调试信息 -->
+		<property name="developer.showstats" value="false" />
+		<property name="connection.max" value="10" />
+		<property name="connection.min" value="5" />
+	</properties>
+</configuration>
